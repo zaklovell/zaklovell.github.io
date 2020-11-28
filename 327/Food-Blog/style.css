@@ -1,0 +1,144 @@
+/* ===Typography=== */ 
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    font-family: 'Helvetica';
+    font-size: 18pt;
+    line-height: 18pt;
+    color: #cdcdcd;
+    text-decoration: none;
+}
+
+#splash {
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    font-size: 72pt;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Helvetica';
+    font-size: 24pt;
+    color: #000000;
+}
+
+p {
+    font-family: 'Helvetica';
+}
+
+footer {
+    font-size: 10pt;
+    color: #ffffff;
+    text-align: center;
+    font-style: oblique;
+}
+
+#adtitle{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+/* === Backgrounds === */
+header{
+    background-color: #000000;
+}
+
+main{
+    background-color: #cdcdcd;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+footer{
+    background-color: #000000;
+}
+
+#splash{
+    background-image: url("heading.jpg");
+    background-size: cover;
+}
+
+/* === Box Model === */
+#splash{
+    height: 400px;
+}
+
+nav{
+    padding: 25px;
+}
+
+footer{
+    padding: 30px;
+}
+
+#foodarticles{
+    padding: 25px;
+}
+
+article{
+    margin-bottom: 25px;
+}
+
+nav a{
+    margin-right: 20px;
+}
+
+/* === Layout === */
+.floatleft{
+    float: left;
+    margin-right: 20px;
+    margin border: 20px;
+}
+
+#container{
+    width: 1000px;
+    margin: auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns:75% 25%;
+}
+
+#splash{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+body{
+    padding-top: 160px;
+}
+
+#bookad{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 30%;
+    background-color: #ff0000;
+    padding: 30px;
+}
+
+#splash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    text-align: center;
+}

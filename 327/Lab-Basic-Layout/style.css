@@ -1,0 +1,112 @@
+/* 
+Lab: Basics of Layout
+=== Do not change CSS below === 
+*/
+
+body {
+    background-color: darkgray;
+    font-size: 14pt;
+    font-family: 'Helvetica', sans-serif;
+    color: #444;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+}
+
+#subscribe {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+button {
+    background-color: #c15c5c;
+    padding: 15px;
+    color: white;
+    border: 0;
+    font-size: 20pt;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ===== Add new CSS below ===== */
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.fab{
+    font-size: 30pt;
+    color: white;
+}
+
+.floatimage{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#books{
+    width: 400px;
+    float: left;
+}
+
+#events{
+    width: 400px;
+    float: right;
+}
+
+footer{
+    clear: both;
+}
+
+#book-icon{
+    float: left;
+    margin-right: 35px;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+body{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#subscribe{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 40%;
+}
+
+#mail{
+    position:fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.fas{
+    font-size: 55px;
+}

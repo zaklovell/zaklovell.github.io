@@ -40,10 +40,10 @@ img{
     grid-column: 1/2;
   }
 
-  footer{
+  /*footer{
     grid-template-columns: 100%;
     text-align: center;
-  }
+  }*/
 
   #social-media {
   text-align: center;

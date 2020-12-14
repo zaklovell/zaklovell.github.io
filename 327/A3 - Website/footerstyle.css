@@ -1,0 +1,58 @@
+.footer{
+  background-color: #FFC772;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 20px;
+}
+
+#footerinfo{
+  left: 100px;
+  bottom: 10px;
+}
+
+.restaurants{
+  display: inline-flex;
+float: clear;
+  /*display: grid;
+  grid-template-columns: 50% 50%;*/
+}
+
+.hrreg{
+  padding-right: 20px;
+}
+
+.hr1{
+  font-family: cheap-pine, sans-serif;
+  font-weight: 0;
+  font-size: 20pt;
+  font-style: normal;
+}
+
+.hr2{
+  font-family: "Rift";
+  color: white;
+  font-size: 15pt;
+}
+
+.contactustext{
+  background-color: #FFAB2D;
+  margin: auto;
+  text-align: center;
+  font-family: "Cheap Pine";
+  font-size: 40pt;
+  color: white;
+  border: 50px solid #FFAB2D;
+}
+
+.contactus{
+  margin: auto;
+}
+
+.contactustext:hover{
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  color: #222226;
+  border: 50px solid white;
+
+}

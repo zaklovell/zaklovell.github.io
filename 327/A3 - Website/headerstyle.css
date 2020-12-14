@@ -1,0 +1,41 @@
+header{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 20px;
+}
+
+.logo{
+  left: 10px;
+  top: 20px;
+  padding-top: 20px;
+}
+
+.nav{
+  left: 100px;
+  top: 100px;
+  text-align: right;
+  font-family: "Cheap Pine";
+}
+
+.link{
+  padding: 30px 20px 30px 0px;
+  display: inline-block;
+
+
+}
+.link:link{
+  color:#FFAB2D;
+  font-size: 25pt;
+  text-decoration: none;
+
+}
+
+.link:visited{
+  color:#FFAB2D;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+.link:hover{
+  color: white;
+}

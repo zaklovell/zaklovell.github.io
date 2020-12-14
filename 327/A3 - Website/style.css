@@ -5,29 +5,55 @@ body{
 header{
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 20px;
 }
 
 .logo{
   left: 10px;
-  top: 10px;
+  top: 20px;
+  padding-top: 20px;
 }
 
-#nav{
+.nav{
   left: 100px;
   top: 100px;
   text-align: right;
+  font-family: "Cheap Pine";
 }
 
-footer{
-  background-color: ##FFCC7E;
-  height: 500px;
+.link{
+  padding: 30px 20px 30px 0px;
+  display: inline-block;
+
+
+}
+.link:link{
+  color:#FFAB2D;
+  font-size: 25pt;
+  text-decoration: none;
+
+}
+
+.link:visited{
+  color:#FFAB2D;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+.link:hover{
+  color: white;
+}
+
+.footer{
+  background-color: #FFCC7E;
   display: grid;
   grid-template-columns: 50% 50%;
+  padding: 20px;
 }
 
 #footerinfo{
   left: 100px;
-  bottom: 100px;
+  bottom: 10px;
 }
 
 .restaurants{
@@ -45,4 +71,20 @@ footer{
   font-family: "Rift";
   color: white;
   font-size: 15pt;
+}
+
+.contactustext{
+  background-color: #FFAB2D;
+  margin: auto;
+  text-align: center;
+  font-family: "Cheap Pine";
+  font-size: 40pt;
+  color: white;
+}
+
+.contactus{
+  margin: auto;
+  padding: 20px;
+  border: 30px solid #FFAB2D;
+  background-color: #FFAB2D;
 }

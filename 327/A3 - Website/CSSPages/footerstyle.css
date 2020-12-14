@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 20px;
+    clear: both;
 }
 
 #footerinfo{
@@ -30,7 +31,7 @@ float: clear;
 
 .hr2{
   font-family: "Rift";
-  color: white;
+  color: black;;
   font-size: 15pt;
 }
 
@@ -38,7 +39,9 @@ float: clear;
   background-color: #FFAB2D;
   margin: auto;
   text-align: center;
-  font-family: "Cheap Pine";
+  font-family: cheap-pine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 40pt;
   color: white;
   border: 50px solid #FFAB2D;

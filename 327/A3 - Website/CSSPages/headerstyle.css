@@ -14,7 +14,9 @@ header{
   left: 100px;
   top: 100px;
   text-align: right;
-  font-family: "Cheap Pine";
+  font-family: cheap-pine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .link{

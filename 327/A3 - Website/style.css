@@ -1,6 +1,48 @@
+body{
+  background-color: #222226;
+}
+
+header{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .logo{
-  position: fixed;
   left: 10px;
   top: 10px;
-  width: 200px;
+}
+
+#nav{
+  left: 100px;
+  top: 100px;
+  text-align: right;
+}
+
+footer{
+  background-color: ##FFCC7E;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#footerinfo{
+  left: 100px;
+  bottom: 100px;
+}
+
+.restaurants{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hr1{
+  font-family: "Cheap Pine";
+  color: white;
+  font-size: 15pt;
+}
+
+.hr2{
+  font-family: "Rift";
+  color: white;
+  font-size: 15pt;
 }
